@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Art</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 40px 90px 215px 90px 140px 65px 90px;
+            grid-template-rows: 140px 165px 90px 90px;
+            gap: 10px;
+            height: fit-content;
+            width: fit-content;
+            background-color: black;
+        }
+        .white {
+            background-color: #F0F1EC;
+        }
+        .yellow {
+            background-color: #F9D01E;
+        }
+        .blue {
+            background-color: #004592;
+        }
+        .red {
+            background-color: #E72F24;
+        }
+        .four {
+            grid-column: span 2;
+        }
+        .thirteen {
+            grid-row: span 2;
+        }
+        .fourteen {
+            grid-row: span 2;
+        }
+        .sixteen {
+            grid-column: span 2;
+        }
+        .twenty {
+            grid-column: span 2;
+        }
+        .twenty-one {
+            grid-column: span 2;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        @media (max-width: 800px) {
+            .container {
+            display: grid;
+            grid-template-columns: 20px 45px 107.5px 45px 70px 32.5px 45px;
+            grid-template-rows: 70px 82.5px 45px 45px;
+            gap: 5px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="one white"></div>
+    <div class="two yellow"></div>
+    <div class="three blue"></div>
+    <div class="four red"></div>
+    <div class="five yellow"></div>
+    <div class="six white"></div>
+    <div class="seven white"></div>
+    <div class="eight white"></div>
+    <div class="nine white"></div>
+    <div class="ten white"></div>
+    <div class="eleven blue"></div>
+    <div class="twelve red"></div>
+    <div class="thirteen white"></div>
+    <div class="fourteen white"></div>
+    <div class="fifteen white"></div>
+    <div class="sixteen red"></div>
+    <div class="seventeen white"></div>
+    <div class="eighteen yellow"></div>
+    <div class="nineteen blue"></div>
+    <div class="twenty yellow"></div>
+    <div class="twenty-one white"></div>
+    <div class="twenty-two white"></div>
+</div>
+</body>
+</html>
